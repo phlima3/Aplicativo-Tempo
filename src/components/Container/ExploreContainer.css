@@ -1,0 +1,6 @@
+.ion-segment-button {
+  padding: 9px 0;
+  --indicator-color: #2877b1;
+  --color-checked: #fff;
+  --background-checked: #2877b1;
+}

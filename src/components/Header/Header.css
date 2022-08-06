@@ -1,0 +1,13 @@
+.ion-title {
+  color: #2677b1;
+  font-weight: 700;
+}
+.ion-title span {
+  color: #777;
+  font-weight: 300;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
