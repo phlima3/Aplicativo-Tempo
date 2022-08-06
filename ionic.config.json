@@ -1,0 +1,7 @@
+{
+  "name": "Tempo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
