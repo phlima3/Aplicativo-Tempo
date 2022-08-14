@@ -7,6 +7,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import "./Header.css";
+import { render } from "react-dom";
 import { MenuOutline, SearchOutline } from "react-ionicons";
 interface HeaderProps {}
 
@@ -19,7 +20,7 @@ const Header: React.FC<HeaderProps> = () => {
             <MenuOutline color="#000" height="30px" width="30px" />
           </IonButton>
           <IonTitle className="ion-title">
-            Clima<span>Tempo</span>{" "}
+            Clima<span>Tempo</span>
           </IonTitle>
 
           <SearchOutline color="#000" height="30px" width="30px" />

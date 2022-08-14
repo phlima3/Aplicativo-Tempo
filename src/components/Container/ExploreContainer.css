@@ -4,3 +4,45 @@
   --color-checked: #fff;
   --background-checked: #2877b1;
 }
+
+.ion-content {
+  --padding-start: 24px;
+  --padding-end: 24px;
+  --padding-top: 24px;
+}
+
+.card-container {
+  margin-top: 30px;
+  padding: 36px;
+  background: linear-gradient(to bottom, #6ad7ef, #6672db);
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.localizacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -44px;
+}
+.localizacao > img {
+  margin-right: 12px;
+  width: 32px;
+  height: 32px;
+}
+.minmax {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  font-weight: 500;
+}
+.temperatura {
+  font-size: 96px;
+  font-weight: 600;
+}
+.imagem-tempo {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  right: 10px;
+}
